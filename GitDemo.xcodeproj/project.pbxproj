@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B90817EE24C030FE00537D8D /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90817ED24C030FE00537D8D /* SearchViewController.swift */; };
 		B95EF08B24BF3BE70018E93E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95EF08A24BF3BE70018E93E /* AppDelegate.swift */; };
 		B95EF08F24BF3BE70018E93E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95EF08E24BF3BE70018E93E /* ViewController.swift */; };
 		B95EF09224BF3BE70018E93E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B95EF09024BF3BE70018E93E /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B90817ED24C030FE00537D8D /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchViewController.swift; path = ../../../../../jigarjarsania/Desktop/SnehaRepository/GitDemo/GitDemo/SearchViewController.swift; sourceTree = "<group>"; };
 		B95EF08724BF3BE70018E93E /* GitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B95EF08A24BF3BE70018E93E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B95EF08E24BF3BE70018E93E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				B95EF09524BF3BF90018E93E /* LaunchScreen.storyboard */,
 				B95EF09824BF3BF90018E93E /* Info.plist */,
 				B95EF09E24BF3C960018E93E /* DetailsViewController.swift */,
+				B90817ED24C030FE00537D8D /* SearchViewController.swift */,
 			);
 			path = GitDemo;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				B95EF08F24BF3BE70018E93E /* ViewController.swift in Sources */,
 				B95EF08B24BF3BE70018E93E /* AppDelegate.swift in Sources */,
+				B90817EE24C030FE00537D8D /* SearchViewController.swift in Sources */,
 				B95EF09F24BF3C960018E93E /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
