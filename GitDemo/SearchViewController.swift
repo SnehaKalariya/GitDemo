@@ -22,5 +22,6 @@ class SearchViewController: UIViewController {
     
     func doSearchig()  {
         print("A B C")
+        print("123334")
     }
 }
