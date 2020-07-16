@@ -19,4 +19,8 @@ class SearchViewController: UIViewController {
     func searchResult()  {
         print("result is here")
     }
+    
+    func doSearchig()  {
+        print("A B C")
+    }
 }
