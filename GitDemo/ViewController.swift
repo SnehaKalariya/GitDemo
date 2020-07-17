@@ -18,6 +18,10 @@ class ViewController: UIViewController {
     private func abc(){
         print("abc")
     }
+    
+    private func cheryPichDemo(){
+        print("demo")
+    }
 
 }
 
