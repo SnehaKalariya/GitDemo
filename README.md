@@ -1,7 +1,6 @@
 # Xcode Templates
 > XCode Templates is a tool for creating code snippets to give you a better starting point to achieve your goal. 
 
-![](header.png)
 
 ## Why Templates comes into a picture
 
@@ -23,8 +22,10 @@
 ![](screen1.png)
 
 - Copy the "Swift File.xctemplate" folder and paste it at "~/Library/Developer/Xcode/Templates/File Templates/Custom"
-or
- In your terminal, run these commands:
+
+OR
+
+ - In your terminal, run these commands:
 
 mkdir -p ~/Library/Developer/Xcode/Templates/Custom
 
@@ -70,5 +71,9 @@ Here your MVVM templates is ready to use.
 
 ![](screen10.png)
 ![](screen11.png)
+
+## Ready to use templates
+
+- I have created entire templates with boiler plate code for VIP architecture. You can consume it from here.
 
 
