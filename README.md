@@ -75,5 +75,6 @@ Now your MVVM template is ready to consume.
 ## Ready to use template provided with this project
 
 - I have created an entire template with boiler plate code for VIP architecture. You can consume it from here
+- I also have created a template for MVVM architecture. So that you can enrich the template with your own boiler plate code
 
 
