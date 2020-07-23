@@ -4,7 +4,7 @@
 
 ## Why Templates come into the picture
 
-- Single module/feature may require multiple classes, files, structs, protocols and some boiler plate code. Heance, it takes more time to create a skelaton for single module. This process is pretty much the same each time. For example – in the MVVM pattern, to create a Login module we need to create few folders and at least 4-5 class-files which contain some default code
+- Single module/feature may require multiple classes, files, structs, protocols and some boiler plate code. Heance, it takes more time to create a skelaton for single module. This process is pretty much the same each time. For example – in the MVVM pattern, to create a Login module we need to create few folders and at least 4-5 class-files which contain some boiler plate code
 - To solve this problem, we could automate this task and create entire skelaton on single click. To achive this, we have to create templates as per the project requirement
 
 ## Why to use 
