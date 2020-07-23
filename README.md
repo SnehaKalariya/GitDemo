@@ -1,11 +1,11 @@
-# Xcode Templates
-> XCode Templates is a tool for creating code snippets to give you a better starting point to achieve your goal
+# Xcode Template
+> XCode Template is a tool for creating code snippets to give you a better starting point to achieve your goal
 
 
-## Why Templates come into the picture
+## Why Template come into the picture
 
-- Single module/feature may require multiple classes, files, structs, protocols and some boiler plate code. Heance, it takes more time to create a skelaton for single module. This process is pretty much the same each time. For example – in the MVVM pattern, to create a Login module we need to create few folders and at least 4-5 class-files which contain some boiler plate code
-- To solve this problem, we could automate this task and create entire skelaton on single click. To achive this, we have to create templates as per the project requirement
+- Single module/feature may require multiple classes, files, structs, protocols and some boiler plate code. Hence, it takes more time to create a skeleton for single module. This process is pretty much the same each time. For example – in the MVVM pattern, to create a Login module we need to create few folders and at least 4-5 class-files which contain some boiler plate code
+- To solve this problem, we could automate this task and create entire skeleton on single click. To achieve this, we have to create templates as per the project requirement
 
 ## Why to use a template
 
@@ -36,7 +36,7 @@ Here, we are using xcode default template for the reference.
 ![](screen2.png)
 
 #### Customize a template as per your requirement
-- Let's consider we are creating a template for MVVM architecture. You can create your own custom template as per the project architecture.
+- Let's consider, we are creating a template for MVVM architecture. You can create your own custom template as per the project architecture.
 Modify and rename the custom folder. Refer below screenshots
  
  ![](screen3.png)
@@ -67,7 +67,7 @@ Now your MVVM template is ready to consume.
 ![](screen8.png)
 ![](screen9.png)
 
-- You get entire structure in your project. You might notice, folders created are the resorce folders (which represented in blue color). But we need the group folders (in yellow color). Hence delete -> Remove refernce of all those folders. Go to Add files to "projectName" -> choose all those folders -> add
+- You get entire structure in your project. You might notice, folders created are the resource folders (which represented in blue color). But we need the group folders (in yellow color). Hence delete -> Remove reference of all those folders. Go to Add files to "projectName" -> choose all those folders -> add
 
 ![](screen10.png)
 ![](screen11.png)
