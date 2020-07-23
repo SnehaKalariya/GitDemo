@@ -13,7 +13,7 @@
 - Uniformly project development
 - Enforcing best practices to the team members
 
-## How to create custom templates
+## How to create a custom template
 
 #### Copy default xcode template
 - Xcode keeps its default templates in a dedicated folder that you can find here:
@@ -35,7 +35,7 @@ Here, we are using xcode default template for the reference.
 
 ![](screen2.png)
 
-#### Customize template as per your requirement
+#### Customize a template as per your requirement
 - Let's consider we are creating templates for MVVM architecture. You can create your own custom templates as per the project's architecture.
 Modify and rename the custom folder as per below screenshots
  
@@ -55,7 +55,7 @@ Please refer below screenshot and my .plist file which you will get from my repo
 
 Here your MVVM templates is ready to use.
 
-## How to use templates in Xcode
+## How to use a template in Xcode
 
  If you already have integrated templates at "~/Library/Developer/Xcode/Templates/File Templates/Custom",  ignore below step.
 
@@ -72,8 +72,8 @@ Here your MVVM templates is ready to use.
 ![](screen10.png)
 ![](screen11.png)
 
-## Ready to use templates
+## Ready to use template provided with this project
 
-- I have created entire templates with boiler plate code for VIP architecture. You can consume it from here
+- I have created an entire template with boiler plate code for VIP architecture. You can consume it from here
 
 
