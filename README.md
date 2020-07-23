@@ -1,11 +1,11 @@
 # Xcode Templates
-> XCode Templates is a tool for creating code snippets to give you a better starting point to achieve your goal. 
+> XCode Templates is a tool for creating code snippets to give you a better starting point to achieve your goal
 
 
 ## Why Templates come into the picture
 
-- Single module/feature may require multiple classes, files, structs, protocols and some boiler plate code. Heance, it takes more time to create a skelaton for single module. This process is pretty much the same each time. For example – in the MVVM pattern, to create a Login module we need to create folders and at least 4-5 classes
-- To solve this problem, we could automate this task and create entire skelaton on single click. To achive this, we have to create templates as per the project requirement.
+- Single module/feature may require multiple classes, files, structs, protocols and some boiler plate code. Heance, it takes more time to create a skelaton for single module. This process is pretty much the same each time. For example – in the MVVM pattern, to create a Login module we need to create few folders and at least 4-5 class-files which contain some default code
+- To solve this problem, we could automate this task and create entire skelaton on single click. To achive this, we have to create templates as per the project requirement
 
 ## Why to use 
 
@@ -37,17 +37,17 @@ Here, we are using xcode default template for the reference.
 
 #### Customize template as per your requirement
 - Let's consider we are creating templates for MVVM architecture. You can create your own custom templates as per the project's architecture.
-Modify and rename the custom folder as per below screenshots.
+Modify and rename the custom folder as per below screenshots
  
  ![](screen3.png)
  ![](screen4.png)
 
-- Write boiler plate code for all the files.
+- Write boiler plate code for all the files
 eg. Refer viewcontroller file as given in below sccreenshot
 
 ![](screen5.png)
 
-- Modify .plist file. 
+- Modify .plist file
 Add Identifier, name, description etc inside an Option node in plist. Option node should contain items for all the files.
 Please refer below screenshot and my .plist file which you will get from my repository. 
 
@@ -74,6 +74,6 @@ Here your MVVM templates is ready to use.
 
 ## Ready to use templates
 
-- I have created entire templates with boiler plate code for VIP architecture. You can consume it from here.
+- I have created entire templates with boiler plate code for VIP architecture. You can consume it from here
 
 
