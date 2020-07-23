@@ -27,7 +27,7 @@ OR
 
  - In your terminal, run these commands:
 
-mkdir -p ~/Library/Developer/Xcode/Templates/Custom
+mkdir -p ~/Library/Developer/Xcode/Templates/File Templates
 
 cp -R /Applications/Xcode.app/Contents/Developer/Library/Xcode/Templates/File Templates/Source/Swift\ File.xctemplate ~/Library/Developer/Xcode/Templates/File Templates/Custom/
 
@@ -67,7 +67,7 @@ Now your MVVM template is ready to consume.
 ![](screen8.png)
 ![](screen9.png)
 
-- You get entire structure in your project. You might notice, folders created are the resorce folder (which represented in blue color). But we need the group folder (in yellow color). Hence delete -> Remove refernce of all those folders. Go to Add files to "projectName" -> choose all those folders -> add
+- You get entire structure in your project. You might notice, folders created are the resorce folders (which represented in blue color). But we need the group folders (in yellow color). Hence delete -> Remove refernce of all those folders. Go to Add files to "projectName" -> choose all those folders -> add
 
 ![](screen10.png)
 ![](screen11.png)
