@@ -36,8 +36,8 @@ Here, we are using xcode default template for the reference.
 ![](screen2.png)
 
 #### Customize a template as per your requirement
-- Let's consider we are creating templates for MVVM architecture. You can create your own custom templates as per the project's architecture.
-Modify and rename the custom folder as per below screenshots
+- Let's consider we are creating a template for MVVM architecture. You can create your own custom template as per the project architecture.
+Modify and rename the custom folder. Refer below screenshots
  
  ![](screen3.png)
  ![](screen4.png)
@@ -48,16 +48,16 @@ eg. Refer viewcontroller file as given in below sccreenshot
 ![](screen5.png)
 
 - Modify .plist file
-Add Identifier, name, description etc inside an Option node in plist. Option node should contain items for all the files.
+Add Identifier, name, description etc inside an Option node in the plist file. Option node should contain items for all the files.
 Please refer below screenshot and my .plist file which you will get from my repository. 
 
 ![](screen6.png)
 
-Here your MVVM templates is ready to use.
+Now your MVVM template is ready to consume.
 
 ## How to use a template in Xcode
 
- If you already have integrated templates at "~/Library/Developer/Xcode/Templates/File Templates/Custom",  ignore below step.
+ If you have already integrated template at "~/Library/Developer/Xcode/Templates/File Templates/Custom", ignore below step.
 
 - Copy the "Templates folder" and paste it at "~/Library/Developer/Xcode/Templates/File Templates/Custom"
 
