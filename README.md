@@ -53,6 +53,28 @@ Please refer below screenshot and my .plist file which you will get from my repo
 
 ![](screen6.png)
 
+##### Plist is a xml file that contains some important keys which are described here:
+
+- Kind: Its own particular value that is required for File Templates. The value of this key is always: Xcode.IDEFoundation.TextSubstituionFileTempalteKind
+
+- Description: A brief description of the template file
+
+- DefaultCompletionName: The default name of file (without extension)
+
+- Options: This key allows us to configure a sort of “Select…” option that will appear in the file creation dialog window of Xcode once we select the template
+
+Below are the options node fields.
+
+- Identifier: used to uniquely identify options. You can use it for creating references for using in other options or template file
+
+- Default: Scene name and identifier shown on the right side of the dialog window
+
+- Description: Brief description of the option. You can see the text when the mouse hovers over it
+
+- Name: Text is shown on the left side of the control  when file creation dialog window display in Xcode
+
+- Required: If a Required option does not have a valid value the Next button on dialog window will be unavailable
+
 Now your MVVM template is ready to consume.
 
 ## How to use a template in Xcode
@@ -74,6 +96,21 @@ Now your MVVM template is ready to consume.
 
 ## Ready to use template provided with this project
 
-- I have created an entire template with boiler plate code for VIP architecture. You can consume it from here
+- I have created an entire template with boiler plate code for VIP architecture. You can consume it from here. 
+
+Prerequisite for use VIP template in your Project- Boilder plate code is using DependencyManager protocol. Hence, I insist you to create a new file and add below code.
+
+import Foundation
+
+protocol DependencyManager: class {
+
+    /// Starts dependencies that need to be activated at launch.
+    func startServices()
+    
+
+}
+
+
+- I also have created a template for MVVM architecture. So that you can enrich the template with your own boiler plate code
 
 
