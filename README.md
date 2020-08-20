@@ -48,10 +48,6 @@ eg. Refer viewcontroller file as given in below sccreenshot
 ![](screen5.png)
 
 - Modify .plist file
-Add Identifier, name, description etc inside an Option node in the plist file. Option node should contain items for all the files.
-Please refer below screenshot and my .plist file which you will get from my repository. 
-
-![](screen6.png)
 
 ##### Plist is a xml file that contains some important keys which are described here:
 
@@ -74,6 +70,11 @@ Below are the options node fields.
 - Name: Text is shown on the left side of the control  when file creation dialog window display in Xcode
 
 - Required: If a Required option does not have a valid value the Next button on dialog window will be unavailable
+
+Add Identifier, name, description etc inside an Option node in the plist file.
+Please refer below screenshot and my .plist file which you will get from my repository. 
+
+![](screen6.png)
 
 Now your MVVM template is ready to consume.
 
@@ -98,7 +99,7 @@ Now your MVVM template is ready to consume.
 
 - I have created an entire template with boiler plate code for VIP architecture. You can consume it from here. 
 
-Prerequisite for use VIP template in your Project- Boilder plate code is using DependencyManager protocol. Hence, I insist you to create a new file and add below code.
+Prerequisite for using VIP template in your Project- Boilder plate code is using DependencyManager protocol. So, I insist you to create a new file and add below code.
 
 import Foundation
 
@@ -111,5 +112,4 @@ protocol DependencyManager: class {
 }
 
 - I also have created a template for MVVM architecture. So that you can enrich the template with your own boiler plate code
-
 
