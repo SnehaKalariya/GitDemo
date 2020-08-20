@@ -53,6 +53,27 @@ Please refer below screenshot and my .plist file which you will get from my repo
 
 ![](screen6.png)
 
+##### Plist is a xml file that contains some important keys which are described as below:
+
+- Kind :-  Its own particular value that is required for File Templates. The value of this key is always: Xcode.IDEFoundation.TextSubstituionFileTempalteKind
+
+- Description :- A brief description of the template file
+
+- DefaultCompletionName :-  The default name of file (without extension)
+
+- Options :- This key allows us to configure a sort of “Select…” option that will appear in the file creation dialog window of Xcode once we select the template
+Below are the options node field.
+
+- Identifier : used to uniquely identify options. You can use it for creating references for using in other options or template file
+
+- Default : Scene name and identifier
+
+- Description : brief description of the option. You can see the text when the mouse hovers over it
+
+- Name: Text is shown on the left side of the control  when file creation dialog window display in Xcode
+
+- Required : If a Required option does not have a valid value the Next button on dialog window will be unavailable
+
 Now your MVVM template is ready to consume.
 
 ## How to use a template in Xcode
