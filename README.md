@@ -110,7 +110,6 @@ protocol DependencyManager: class {
 
 }
 
-
 - I also have created a template for MVVM architecture. So that you can enrich the template with your own boiler plate code
 
 
